@@ -75,12 +75,12 @@
 ---
 
 ## 🔗 Links Úteis
-* 🌐 **Demo Online (Vercel):** [Acesse a Aplicação Web na Vercel]([INSERIR LINK AQUI])
+* 🌐 **Demo Online (Vercel):** [Acesse a Aplicação Web na Vercel](https://diw-lab-1.vercel.app/)
   > 💻 **Descrição:** Link de acesso para o Portfólio Profissional publicado em produção na nuvem (Vercel).
-* 🎨 **Protótipo e Wireframes (Figma):** [Acesse o Projeto no Figma]([INSERIR LINK AQUI])
-  > 📐 **Descrição:** Link para visualização dos wireframes e protótipo de interface desenvolvidos para a disciplina de DIW.
-* 📖 **Repositório no GitHub:** [github.com/davicampolina](https://github.com/davicampolina)
-  > 📚 **Descrição:** Acesso ao perfil e código-fonte completo do projeto no GitHub.
+* 🎨 **Protótipo e Wireframes (Figma):** [Clique aqui para visualizar a imagem do wireframe](https://github.com/user-attachments/assets/847ca869-1224-4127-bfeb-79a19638c315)
+  > **Descrição:** Imagem dos wireframes e protótipo de interface desenvolvidos para o projeto.
+* 📖 **Repositório no GitHub:** [github.com/davicampolina/DIW-LAB1](https://github.com/davicampolina/DIW-LAB1)
+  > 📚 **Descrição:** Acesso ao código-fonte completo do projeto no GitHub.
 
 ---
 
@@ -154,15 +154,13 @@ O projeto adota uma **Arquitetura Fullstack Monolítica Modular Serverless** bas
 - **Camada de Estado Global (`src/context/LanguageContext.tsx`):** Provedor React que distribui o idioma selecionado (`pt-BR` ou `en`) e a função tradutora `t()` para todos os componentes da árvore sem *prop drilling*.
 - **Camada de API Back-end (`src/app/api/contact/route.ts`):** Endpoint HTTP `POST` que valida os campos recebidos (`name`, `email`, `message`), comunica-se com a API do EmailJS utilizando variáveis de ambiente e retorna respostas padronizadas em JSON.
 
-### Wireframes e Protótipos (Figma)
+### Wireframe Geral (Planejamento de Interface)
 
-Para visualização do planejamento visual e estrutural das seções do portfólio:
+Para visualização da arquitetura e organização estrutural das seções do portfólio:
 
-> ⚠️ **[INSERIR LINK AQUI]:** Substitua ou adicione abaixo as imagens finais exportadas dos seus wireframes do Figma.
-
-| Wireframe Geral (Arquitetura das Seções) | Protótipo de Alta Fidelidade (Figma) |
-| :---: | :---: |
-| <img src="./public/wireframes/figma-wireframe.svg" alt="Wireframe Geral do Portfólio" width="420px"> | **[INSERIR LINK AQUI — Imagem do Figma Desktop/Mobile]** |
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/847ca869-1224-4127-bfeb-79a19638c315" alt="Wireframe Geral do Portfólio" width="850px" />
+</div>
 
 ---
 
@@ -260,7 +258,7 @@ O projeto está configurado para deploy imediato na plataforma **Vercel**:
 4. Adicione as variáveis de ambiente do arquivo `.env.example` na aba **Environment Variables** (opcional).
 5. Clique em **Deploy**.
 
-* 🌐 **Link Final na Vercel:** **[INSERIR LINK AQUI]**
+- 🌐 **Link Final na Vercel:** [https://diw-lab-1.vercel.app/](https://diw-lab-1.vercel.app/)
 
 ---
 
@@ -330,13 +328,13 @@ portfolio-profissional/
 
 ## 🎥 Demonstração
 
-> ⚠️ **[INSERIR LINK AQUI]:** Insira abaixo os GIFs ou capturas de tela da aplicação rodando no navegador e no celular após o deploy.
-
 ### 📱 Aplicativo Mobile (Responsividade)
 
-| Versão Mobile — Apresentação & Sobre Mim | Versão Mobile — Timeline de Projetos & Contato |
-| :---: | :---: |
-| **[INSERIR LINK AQUI — Print Mobile 1]** | **[INSERIR LINK AQUI — Print Mobile 2]** |
+| Versão Mobile — Apresentação (Hero) | Versão Mobile — Linha do Tempo de Projetos | Versão Mobile — Redes & Contato |
+| :---: | :---: | :---: |
+| <img src="https://github.com/user-attachments/assets/44fe9402-a253-4461-afb0-ac3d783064f9" alt="Versão Mobile — Apresentação e Hero" width="260px" /> | <img src="https://github.com/user-attachments/assets/2b1fc984-4979-4c8a-8028-318d35b2e05b" alt="Versão Mobile — Timeline de Projetos" width="260px" /> | <img src="https://github.com/user-attachments/assets/a1fdc834-0082-4856-b0eb-c5d48f23d4cf" alt="Versão Mobile — Redes e Formulário de Contato" width="260px" /> |
+
+---
 
 ### 🌐 Aplicação Web (Desktop)
 
@@ -345,7 +343,12 @@ portfolio-profissional/
 | **Apresentação Inicial (Hero) & Foto de Perfil** | <img src="./public/profile-avatar.jpg" alt="Foto de Perfil Davi Rocha" width="160px"> |
 | **Projeto 01 — Extensão Universitária em IA** | <img src="./public/projects/extensao-ia-1.png" alt="Projeto Extensão IA" width="320px"> |
 | **Projeto 03 — Site Sidney Rocha Advocacia** | <img src="./public/projects/sidney-rocha-site.png" alt="Site Sidney Rocha Advocacia" width="320px"> |
-| **Visão Completa da Página Web** | **[INSERIR LINK AQUI — Captura de Tela da Home Completa]** |
+
+#### 🖥️ Visão Completa da Página Web
+
+<div align="center">
+<img width="165" height="1024" alt="web completo" src="https://github.com/user-attachments/assets/4dcddf86-4613-4a32-ad51-0ad6be06de75" />
+</div>
 
 ### 💻 Exemplo de Saída no Terminal (API de Contato)
 
