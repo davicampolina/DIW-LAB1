@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" fill="none">
+  <rect width="1200" height="675" fill="#050505"/>
+  <rect x="30" y="25" width="1140" height="625" rx="16" stroke="rgba(255,255,255,0.15)" stroke-dasharray="6 6"/>
+  <!-- Wireframe Header Pill -->
+  <rect x="340" y="55" width="520" height="46" rx="23" fill="rgba(255,255,255,0.04)" stroke="rgba(59,130,246,0.5)"/>
+  <text x="375" y="83" fill="#FFFFFF" font-family="monospace" font-size="13">[HEADER PILL] &lt;/&gt; Logo | 01. Sobre | 02. Projetos | 03. Exp | 04. Contato | [PT/EN]</text>
+
+  <!-- Wireframe Grid Sections -->
+  <rect x="70" y="130" width="510" height="220" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="95" y="165" fill="#93C5FD" font-family="monospace" font-size="14">01. // WIREFRAME: SOBRE MIM &amp; HERO</text>
+  <rect x="95" y="185" width="340" height="22" rx="4" fill="rgba(255,255,255,0.12)"/>
+  <rect x="95" y="220" width="450" height="50" rx="6" fill="rgba(255,255,255,0.05)"/>
+  <rect x="95" y="285" width="140" height="40" rx="20" fill="#FFFFFF"/>
+  <rect x="250" y="285" width="140" height="40" rx="20" fill="rgba(255,255,255,0.08)" stroke="rgba(255,255,255,0.2)"/>
+
+  <rect x="620" y="130" width="510" height="220" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="645" y="165" fill="#93C5FD" font-family="monospace" font-size="14">02. // WIREFRAME: TIMELINE DE PROJETOS (ANTIGO -&gt; RECENTE)</text>
+  <line x1="660" y1="190" x2="660" y2="330" stroke="#3B82F6" stroke-width="2"/>
+  <circle cx="660" cy="210" r="6" fill="#93C5FD"/>
+  <rect x="685" y="192" width="415" height="55" rx="8" fill="rgba(29,78,216,0.15)" stroke="rgba(59,130,246,0.35)"/>
+  <circle cx="660" cy="285" r="6" fill="#93C5FD"/>
+  <rect x="685" y="267" width="415" height="55" rx="8" fill="rgba(255,255,255,0.04)" stroke="rgba(255,255,255,0.12)"/>
+
+  <rect x="70" y="385" width="510" height="225" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="95" y="420" fill="#93C5FD" font-family="monospace" font-size="14">03. // WIREFRAME: EXPERIÊNCIAS (LINHAS HORIZONTAIS 1PX)</text>
+  <line x1="95" y1="445" x2="550" y2="445" stroke="rgba(255,255,255,0.15)"/>
+  <rect x="95" y="460" width="455" height="45" rx="6" fill="rgba(255,255,255,0.04)"/>
+  <line x1="95" y1="520" x2="550" y2="520" stroke="rgba(255,255,255,0.15)"/>
+  <rect x="95" y="535" width="455" height="45" rx="6" fill="rgba(255,255,255,0.04)"/>
+
+  <rect x="620" y="385" width="510" height="225" rx="14" fill="rgba(255,255,255,0.03)" stroke="rgba(255,255,255,0.15)"/>
+  <text x="645" y="420" fill="#93C5FD" font-family="monospace" font-size="14">04. // WIREFRAME: CONTATO &amp; FORMULÁRIO (/API/CONTACT)</text>
+  <rect x="645" y="442" width="215" height="36" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="880" y="442" width="220" height="36" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="645" y="492" width="455" height="52" rx="8" fill="rgba(255,255,255,0.05)" stroke="rgba(255,255,255,0.12)"/>
+  <rect x="645" y="556" width="180" height="36" rx="18" fill="#FFFFFF"/>
+</svg>
+
